@@ -20,6 +20,7 @@ public class Hooks{
     /**
      * Delete all cookies at the start of each scenario to avoid
      * shared state between tests
+     * If you plan to start another browser you must locally install the driver
      */
     public void openBrowser() throws MalformedURLException {
     	System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
